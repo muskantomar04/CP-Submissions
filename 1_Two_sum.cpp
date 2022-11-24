@@ -15,11 +15,11 @@ public:
                 }
             }
         }
-        return ans;  /
+        return ans;   */
         
         
         //OPTIMIZED, time=O(n), space=0(n)
-        /*vector<int> ans;
+        vector<int> ans;
         unordered_map<int,int> m;
         for(int i=0; i<nums.size(); i++)
         {
@@ -31,6 +31,6 @@ public:
             }
             m[nums[i]] = i;
         }
-        return ans;  */
+        return ans;  
     }
 };
